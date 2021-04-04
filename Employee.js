@@ -1,5 +1,5 @@
 class Emp {
-constructor(name, email, id role) {
+constructor(name, email, id, role) {
     this.name = name
     this.email = email
     this.id = id
