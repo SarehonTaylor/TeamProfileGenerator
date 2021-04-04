@@ -6,6 +6,20 @@ constructor(name, email, id role) {
     this.role =role;
 }
 
-
+getName () {
+    return this.name;
+}
+getEmail() {
+    return this.email
+}
+getId () {
+    return this.id;
+}
+getRole() {
+    return this.role;
+    }
 
 }
+
+
+module.export - Employee;
