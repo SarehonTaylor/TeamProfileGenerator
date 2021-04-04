@@ -1,19 +1,31 @@
-const fs = require ('fs')
+const fs = require('fs')
+
+//writeing the  html file function
+
 function writeSite(html){
-fs.writeFile(index.html), html, err => {
-if (err){
-    throw err    
-}    
-console.log("saved")
-copyFiles()
-})
-}
-const copyFile = () => {
-    fs.copyFile('./style.css', err => {
-        if (err) {
-            console.log(err);
+    fs.writeFile('./dist/index.html', html, err => {
+    if (err){
+         throw err
     }
-            console.log('css has been copied')
+    console.log("saved")
+    copyFile()
+    })
+
+     
+    
+}
+
+
+// the CSS template copy file function
+const copyFile = () => {
+    fs.copyFile('./src/style.css', './dist/style.css', err => {
+            if (err) {
+                console.log(err);
+    }          
+         console.log('css copied')   
 });
 }
-    module.exports = wrtieSite, copyFile
+
+
+
+module.exports = writeSite, copyFile
