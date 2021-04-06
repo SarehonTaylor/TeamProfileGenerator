@@ -24,8 +24,8 @@
     "inquirer",
     "jest"
   ],
-  "author": "neil",
-  "license": "ISC",
+  "author": "Sarehon Taylor",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SarehonTaylor/TeamProfileGenerator/issues"
   },
