@@ -2,7 +2,7 @@
 const { TestResult } = require("@jest/types");
 
 
-const Engineer = require('../lib/Engineer');
+const Engineer = require('../Profilelibrary/Engineer');
 
 
 // test for name, email, id, role validity

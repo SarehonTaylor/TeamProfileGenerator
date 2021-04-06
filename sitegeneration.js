@@ -3,7 +3,7 @@ const fs = require('fs')
 //writeing the  html file function
 
 function writeSite(html){
-    fs.writeFile('./dist/index.html', html, err => {
+    fs.writeFile('./Createdprofile', html, err => {
     if (err){
          throw err
     }

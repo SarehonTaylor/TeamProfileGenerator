@@ -15,9 +15,9 @@ const Manager = require('./Profilelibrary/Manager')
 
 
 
-const generatePage = require('./src/page-template')
+const generatePage = require('./source/page-template')
 
-const writeHTML = require('./generate-site')
+const writeHTML = require('./sitegeneration')
 
 
 //team array

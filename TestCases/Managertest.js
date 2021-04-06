@@ -2,7 +2,7 @@
 const { TestResult } = require("@jest/types");
 
 
-const Manager = require('../ProfileLibrary/Manager');
+const Manager = require('../Profilelibrary/Manager');
 const { number } = require("yargs");
 
 
