@@ -2,7 +2,7 @@
 const { TestResult } = require("@jest/types");
 
 
-const Manager = require('../lib/Manager');
+const Manager = require('../ProfileLibrary/Manager');
 const { number } = require("yargs");
 
 
@@ -20,7 +20,7 @@ test('has a name', () => {
     expect(testManager.name.length).toBeGreaterThan(2)
 })
 
-test('has an email a valid email', () =>{
+test('has to an email a valid email', () =>{
     expect(testManager.email).toEqual(expect.stringContaining('@'))
 })
 
