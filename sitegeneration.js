@@ -3,7 +3,7 @@ const fs = require('fs')
 //writeing the  html file function
 
 function writeSite(html){
-    fs.writeFile('./Createdprofile', html, err => {
+    fs.writeFile('./Createdprofile.html', html, err => {
     if (err){
          throw err
     }
@@ -18,7 +18,7 @@ function writeSite(html){
 
 // the CSS template copy file function
 const copyFile = () => {
-    fs.copyFile('./src/style.css', './dist/style.css', err => {
+    fs.copyFile('.style.css', 'style.css', err => {
             if (err) {
                 console.log(err);
     }          
