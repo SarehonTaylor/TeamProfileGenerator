@@ -18,7 +18,7 @@ function writeSite(html){
 
 // the CSS template copy file function
 const copyFile = () => {
-    fs.copyFile('.style.css', 'style.css', err => {
+    fs.copyFile('style.css', 'style.css', err => {
             if (err) {
                 console.log(err);
     }          
