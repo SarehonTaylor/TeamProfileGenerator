@@ -9,6 +9,9 @@
 * [Contributors](#contributors)
 * [Test](#test)
 * [Questions](#questions)
+* ![image](https://user-images.githubusercontent.com/74032335/120260761-82171100-c264-11eb-9622-d97c144fb250.png)
+![image](https://user-images.githubusercontent.com/74032335/120260799-922ef080-c264-11eb-922f-e7c1116f66e5.png)
+
 ## Description
 This Node application will allow you to build a website showcasing your team including a manager, employee, engineer and intern.
 ## Installation
